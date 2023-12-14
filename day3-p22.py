@@ -3,6 +3,7 @@
 #4361
 
 from string import punctuation
+from collections import Counter
 
 punctuation = [x for x in punctuation if x != '.']
 
